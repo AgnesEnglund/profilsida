@@ -1,0 +1,170 @@
+body {
+    box-sizing: border-box;
+    font-family: Helvetica, "sans serif";
+    color: peru;
+}
+
+.button {
+    background-color:white;
+    color: burlywood;
+    padding: 25px;
+    border-radius: 40px;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+
+h1 {
+    margin: 1px;
+    font-size: 65px;
+    color: rgb(237, 230, 222);
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 200;
+    margin: 1px;
+}
+
+.brun {
+    color:rgb(93, 36, 12);
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+}
+
+.om-mig {
+    background-color: rgb(236, 148, 33);
+    padding: 150px 10px;
+    text-align: center;
+}
+
+.om-mig img {
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border-style:solid;
+    border-width: 10px;
+}
+
+.jag-kan {
+    padding: 150px 10px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: rgb(233, 198, 152);
+    padding: 150px 30px;
+    text-align: center;
+}
+
+a {
+    color:rgb(73, 3, 3);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: lowercase;
+}
+
+a:hover {
+    color: rgb(190, 54, 54);
+}
+
+/* HÄR ÄR NAV-BAREN */
+
+#navbar {
+    display: grid;
+    min-height: 30px;
+    grid-auto-flow: column;
+    background-color: rgb(255, 255, 255);
+    border-bottom: black;
+    border-bottom-style: solid;
+    grid-gap: 9em;
+    padding: 40px 40px;
+    margin-bottom: none;
+
+}
+  
+#links {
+    display: grid;
+    justify-content:center;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 3em;
+
+}
+  
+a {
+    text-decoration: none;
+    font-family: "Futura", Helvetica, "sans serif";
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+  
+a:hover {
+    color: rgb(93, 36, 12);
+}
+
+/* Tilläggssidor */
+
+.content-sida {
+    padding: 150px 10px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.tabell {
+    font-size: 20px;
+    color:rgb(236, 148, 33)
+
+}
+
+th{
+    text-align: right;
+    padding: 20px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: rgb(237, 230, 222);
+}
+
+td {
+    text-align: left;
+    padding: 20px;
+}
+
+li {
+    list-style-type:circle;
+    list-style-position: outside;
+    row-gap: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.top-section {
+    background-color: rgb(236, 148, 33);
+    padding: 150px 10px;
+    text-align: center;
+}
+
